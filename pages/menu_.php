@@ -35,6 +35,17 @@
 						Админ
 					</a>
 				</li>
+				<li <?php echo ($page>5&&$page<20)? "class='active'":"" ?>>
+					
+						<span class="glyphicon glyphicon-wrench"></span>
+						Ученики
+					<ul><li>
+<a>Ivan</a>
+					</li>
+					<li>
+<a>Semen</a>
+					</li></ul>
+				</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
